@@ -1,0 +1,3 @@
+breaking-deps contains man pages about breaking dependencies in code. These
+techniques are taken from Michael C. Feathers "Working effectively with
+legacy code".

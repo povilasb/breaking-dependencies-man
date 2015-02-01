@@ -1,0 +1,14 @@
+Source: breaking-deps-man
+Section: doc
+Priority: optional
+Maintainer: Povilas Balciunas <balciunas90@gmail.com>
+Build-Depends: debhelper
+Standards-Version: 3.9.3
+Homepage: https://github.com/povilasb/breaking-dependencies-man
+
+Package: breaking-deps-man
+Architecture: any
+Depends: man-db
+Description: Man pages about breaking dependencies in code. These
+ techniques are taken from Michael C. Feathers "Working effectively with
+ legacy code".
