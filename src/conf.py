@@ -40,6 +40,6 @@ release = '0.1.0'
 man_pages = [
     ('index', 'breaking-deps',
      u'dependency breaking techniques from the book '
-         '"Working effectively with legacy code" by Michael V. Feathers.',
+         '"Working effectively with legacy code" by Michael C. Feathers.',
      [u'Povilas Balciunas'], 1)
 ]
