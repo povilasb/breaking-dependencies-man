@@ -36,5 +36,29 @@ Steps
 Example
 -------
 
+TODO
 
-.. todo::
+
+Break out method object
+=======================
+
+The idea behind this refactoring is to move a long method to a class. Objects
+that you create using that new class are called method objects because they
+embody the code of a single method. After refactoring you can ofthen write test
+for the new class easier than you could for the old method. Local variables
+in the old method can become instance variables in the new class. Often
+that makes it easier to break dependencies and move the code to a better
+state.
+
+
+When to use?
+------------
+
+If the method that you have to work with is very large or uses instance data
+and methods.
+
+
+Steps
+-----
+
+#.
